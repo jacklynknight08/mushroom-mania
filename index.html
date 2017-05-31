@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mushroom Mania</title>
+</head>
+<body ng-app="MushroomManiaApp">
+	<h1>Mushroom Mania Exercise</h1>
+
+	<div ng-include="'partials/mush-nav.html'"></div>
+	<!-- <div ng-include="'partials/poisonous.html'"></div>
+	<div ng-include="'partials/non-poisonous.html'"></div> -->
+
+	<div ng-view></div>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script src="app/app.js"></script>
+<script src="app/controllers/MushroomCtrl.js"></script>
+<script src="app/factories/MushroomFactory.js"></script>
+
+</body>
+</html>

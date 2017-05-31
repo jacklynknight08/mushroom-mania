@@ -1,0 +1,20 @@
+<article class="product-list">
+
+<label>Type Here:</label>
+    <input type="text" ng-model="query" placeholder="search">
+
+  <header><h1>Non-Poisonous Mushrooms</h1></header>
+
+  <section>
+
+    <div ng-repeat="item in mushrooms | filter: query">
+      <div ng-show="{{item.edible}}">
+      <a href="#!/item/{{ item.id }}">{{ item.name }}</a>
+        <ul>
+          <li>{{item.description}}</li>
+        </ul>
+    </div>
+
+  </section>
+
+</article>

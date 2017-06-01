@@ -1,5 +1,8 @@
 # Mushroom-Mania Exercise
 
+### This exercise also includes Mushroom Factory Exercise
+
+
 1. Go to lib folder
 2. Run "npm install"
 3. Run grunt
